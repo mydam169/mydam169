@@ -2,7 +2,7 @@
 
 Quantitative researcher — econ PhD, financial engineering MSc.
 
-Edmonton, AB · my.dam169@gmail.com · [LinkedIn](https://linkedin.com/in/my-dam-0b132499) · [CV (pdf)](https://github.com/mydam169/cv/blob/main/CV_MyDam.pdf)
+Edmonton, AB · my.dam169@gmail.com · [LinkedIn](https://linkedin.com/in/my-dam-0b132499) · [CV](https://github.com/mydam169/cv/blob/main/CV_MyDam.pdf)
 
 ---
 
