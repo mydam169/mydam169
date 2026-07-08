@@ -1,16 +1,41 @@
-## Hi there 👋
+# My Dam
 
-<!--
-**mydam169/mydam169** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Quantitative researcher — econ PhD, financial engineering MSc.
 
-Here are some ideas to get you started:
+Edmonton, AB · my.dam169@gmail.com · [LinkedIn](https://linkedin.com/in/my-dam-0b132499)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+### Projects
+
+**[Macroeconomic Regime-Based Tactical Asset Allocation](https://github.com/mydam169/regime-based-asset-allocator)**
+MSc capstone thesis. Regime-detection framework for tactical asset allocation.
+
+- Gaussian HMM (Baum-Welch EM, 10 restarts) and a custom MSMH-VAR(1) model (Hamilton filter, Kim smoother EM) implemented from scratch
+- PLS dimensionality reduction; expanding-window walk-forward backtesting to avoid look-ahead bias
+- Regime-conditional portfolio construction (`cvxpy`): Ledoit-Wolf shrinkage covariance, Bayes-Stein shrinkage for expected returns
+- Walk-forward Sortino ratio 1.51, annualized return 11.7%, max drawdown -20.0% (Jan 2019–Dec 2025), vs. 60/40 benchmark Sortino 0.95, drawdown -25.8%
+
+Tools: Python, NumPy/Pandas, sklearn, Statsmodels, cvxpy
+
+---
+
+### Methods
+
+* Time series analysis and forecasting (ARIMA, GARCH, state-space models including HMM and MSVAR)
+* Regression analysis on panel data
+* Portfolio optimization
+* Backtesting - walk-forward validation
+* Dimensionality reduction (PCA, PLS),
+* Monte Carlo simulation, dynamic programming
+  
+Python, R, MATLAB, SQL, Stata
+
+---
+
+### Education
+
+- MSc Financial Engineering, WorldQuant University (2026)
+- PhD Economics, Paris-Saclay University (2020)
+- MSc Economics and Social Sciences, Bocconi University (2015)
+- BSc Economics, Trinity College (2012)
