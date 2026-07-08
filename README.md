@@ -26,8 +26,8 @@ Tools: Python, NumPy/Pandas, sklearn, Statsmodels, cvxpy
 * Regression analysis on panel data
 * Portfolio optimization
 * Backtesting - walk-forward validation
-* Dimensionality reduction (PCA, PLS),
-* Monte Carlo simulation, dynamic programming
+* Dimensionality reduction (PCA, PLS)
+* Computational methods: Monte Carlo simulation, dynamic programming and optimal control
   
 Python, R, MATLAB, SQL, Stata
 
