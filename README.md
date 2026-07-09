@@ -8,15 +8,16 @@ Edmonton, AB · my.dam169@gmail.com · [LinkedIn](https://linkedin.com/in/my-dam
 
 ### Projects
 
+### Projects
+
 **[Macroeconomic Regime-Based Asset Allocation](https://github.com/mydam169/regime-based-asset-allocator)**
-An extension from my MSc capstone project.
+Group MSc capstone thesis; extended individually post-graduation.
 
-- Gaussian HMM (Baum-Welch EM, 10 restarts) via `hmmlearn` and custom MSMH-VAR(1) model (Hamilton filter, Kim smoother EM) implemented from scratch
-- PLS dimensionality reduction; expanding-window walk-forward estimation and backtesting to avoid look-ahead bias
-- Regime-conditional portfolio construction (`cvxpy`): Ledoit-Wolf shrinkage covariance, Bayes-Stein shrinkage for expected returns
-- Walk-forward Sortino ratio 1.51, annualized return 11.7%, max drawdown -20.0% (Jan 2019–Dec 2025), vs. 60/40 benchmark Sortino 0.95, drawdown -25.8%
+- Capstone: Gaussian HMM (`hmmlearn`, Baum-Welch EM) and a custom MSMH-VAR(1) model (Hamilton filter, Kim smoother EM, built from scratch), plus regime-conditional portfolio optimization (`cvxpy`, Ledoit-Wolf and Bayes-Stein shrinkage). MSVAR outperformed HMM on a fixed-window backtest
+- Extension: added macro indicators, compared PCA and PLS for dimensionality reduction (PLS preferred), replaced fixed-window with expanding-window walk-forward backtesting
+- Walk-forward Sortino ratio 1.51, annualized return 11.7%, max drawdown -20.0% (Jan 2019–Dec 2025), vs. 60/40 benchmark Sortino 0.95, drawdown -25.8%; HMM now outperforms MSVAR, and uniquely detects the 1990–91 recession, which the original model and PCA-based variants miss
 
-Tools: Python, NumPy/Pandas, sklearn, Statsmodels, cvxpy
+Tools: Python, NumPy, Pandas, Scikit-learn, Statsmodels, cvxpy
 
 ---
 
