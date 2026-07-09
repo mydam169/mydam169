@@ -11,7 +11,7 @@ Edmonton, AB · my.dam169@gmail.com · [LinkedIn](https://linkedin.com/in/my-dam
 **[Macroeconomic Regime-Based Asset Allocation](https://github.com/mydam169/regime-based-asset-allocator)**
 An extension from my MSc capstone project.
 
-- Gaussian HMM (Baum-Welch EM, 10 restarts) and a custom MSMH-VAR(1) model (Hamilton filter, Kim smoother EM) implemented from scratch
+- Gaussian HMM (Baum-Welch EM, 10 restarts) via `hmmlearn` and custom MSMH-VAR(1) model (Hamilton filter, Kim smoother EM) implemented from scratch
 - PLS dimensionality reduction; expanding-window walk-forward estimation and backtesting to avoid look-ahead bias
 - Regime-conditional portfolio construction (`cvxpy`): Ledoit-Wolf shrinkage covariance, Bayes-Stein shrinkage for expected returns
 - Walk-forward Sortino ratio 1.51, annualized return 11.7%, max drawdown -20.0% (Jan 2019–Dec 2025), vs. 60/40 benchmark Sortino 0.95, drawdown -25.8%
