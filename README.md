@@ -8,8 +8,6 @@ Edmonton, AB · my.dam169@gmail.com · [LinkedIn](https://linkedin.com/in/my-dam
 
 ### Projects
 
-### Projects
-
 **[Macroeconomic Regime-Based Asset Allocation](https://github.com/mydam169/regime-based-asset-allocator)**
 Group MSc capstone thesis; extended individually post-graduation.
 
